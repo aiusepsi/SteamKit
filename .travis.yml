@@ -14,11 +14,3 @@ before_install:
 script:
   - .ci/build.sh
   - .ci/test.sh
-  
-notifications:
-  irc:
-    channels:
-      - "irc.gamesurge.net#opensteamworks"
-    on_success: always
-    on_failure: always
-    skip_join: true
